@@ -1,8 +1,10 @@
 # Add two numbers in python
 # Author: Anbo Xu
-# Using the + operator
-a = 15
-b = 12
-# Adding two numbers
-res = a + b
+# Using user input
+
+# Taking user input
+a = input("First number: ")
+b = input("Second number: ")
+# Convert input to float and adding
+res = float(a) + float(b)
 print(res)
